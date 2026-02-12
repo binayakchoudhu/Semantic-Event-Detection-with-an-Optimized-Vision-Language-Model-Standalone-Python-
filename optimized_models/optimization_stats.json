@@ -1,0 +1,19 @@
+{
+  "original": {
+    "size_mb": 577.0781211853027,
+    "total_params": 151277313.0,
+    "nonzero_params": 151277048.0,
+    "sparsity": 1.751749781564449e-06
+  },
+  "quantized": {
+    "size_mb": 288.5395450592041,
+    "size_reduction": 49.99991604835897
+  },
+  "pruned": {
+    "size_mb": 577.0781211853027,
+    "total_params": 151277313.0,
+    "nonzero_params": 114262148.0,
+    "sparsity": 0.2446841781225979,
+    "params_removed": 37015165.0
+  }
+}

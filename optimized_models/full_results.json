@@ -1,0 +1,40 @@
+{
+  "optimization": {
+    "original": {
+      "size_mb": 577.0781211853027,
+      "total_params": 151277313.0,
+      "nonzero_params": 151277048.0,
+      "sparsity": 1.751749781564449e-06
+    },
+    "quantized": {
+      "size_mb": 288.5395450592041,
+      "size_reduction": 49.99991604835897
+    },
+    "pruned": {
+      "size_mb": 577.0781211853027,
+      "total_params": 151277313.0,
+      "nonzero_params": 114262148.0,
+      "sparsity": 0.2446841781225979,
+      "params_removed": 37015165.0
+    }
+  },
+  "benchmark": {
+    "Original (FP32)": {
+      "fps": 35.84022258171587,
+      "avg_time_ms": 27.901612433349026
+    },
+    "Pruned (30%)": {
+      "fps": 36.4554487706275,
+      "avg_time_ms": 27.430741733337527
+    }
+  },
+  "detection_summary": {
+    "total_frames": 50,
+    "dominant_event": "a person walking",
+    "event_counts": {
+      "an empty scene": 7,
+      "a person running": 7,
+      "a person walking": 36
+    }
+  }
+}
